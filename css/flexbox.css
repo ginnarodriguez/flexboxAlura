@@ -31,3 +31,21 @@
     height: 250px;
     flex-wrap: wrap;/*cuando llegue a los 250px quiebra y hace otra columna*/
 }
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 23%;
+}
+ /*responsive*/
+
+ .headerPrincipal .container{
+    flex-direction: column;/*para que deje de ser linea y pase a columna*/
+    align-items: initial;/*modificar lo itmes de manera vertical*/
+    text-align: center;
+ }
+ .headerPrincipal-nav{
+    flex-direction: column;
+ }
