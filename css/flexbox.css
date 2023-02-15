@@ -39,6 +39,21 @@
     display: flex;
     width: 23%;
 }
+.videoSobre .container{
+    display: flex;
+ }
+ .videoSobre-sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ }
+ .videoSobre-video{
+    flex-grow: 2;/*aumenta el tamaño en proporción*/
+    flex-shrink: 2;/*disminuye a proporción*/
+ }
+ .videoSobre-sobre-list{
+    flex-grow: 2;
+ }
  /*responsive*/
 @media (max-width:768px) {
    
@@ -75,7 +90,12 @@
     justify-content: center;
  }
  .headerPrincipal-nav-link-app{
-    order: -1;
+    order: -1; /*para que en la versión movil quede de primeras*/
 
  }
+
+ .videoSobre .container{
+    flex-direction: column;
+ }
+
 }
